@@ -12,4 +12,8 @@ class PeopleController < ApplicationController
     end
   end
 
+  def person
+    @person = People.all
+  end
+
 end
